@@ -1,16 +1,39 @@
-# viraltrack
+Viral Track 🏥
 
-A new Flutter project.
+Viral Track is a Flutter-based healthcare application designed to help doctors and healthcare professionals efficiently manage patient records, track consultations, and generate digital prescriptions.
 
-## Getting Started
+🚀 Key Features
 
-This project is a starting point for a Flutter application.
+Doctor's Dashboard: Real-time insights including total patients, pending cases, and today's visits.
 
-A few resources to get you started if this is your first Flutter project:
+Patient Management (CRUD): Add, update, search, and delete patient profiles seamlessly.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Advanced Filtering: Filter patients by disease categories (Diabetes, Hypertension, Asthma, etc.) and search by name or diagnosis.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Consultation System: Log symptoms and diagnoses for every visit.
+
+Prescription Builder: Dynamic tool to add or remove medicines during live consultations.
+
+Medical History: Track complete consultation and prescription history for each patient.
+
+🏗️ Architecture & State Management
+
+The app uses Provider-based state management to maintain a clean separation of concerns and ensure a responsive UI.
+
+Core Providers:
+
+DashboardProvider: Manages global app state, doctor's profile, and key statistics.
+
+PatientProvider: Handles patient lists, search, and filtering logic.
+
+ConsultationProvider: Manages prescription states during checkups and saves final consultation history.
+
+🛠️ Technical Stack
+
+Frontend: Flutter
+
+Language: Dart
+
+State Management: Provider
+
+Data Models: Custom models for User, Patient, Consultation, Prescription, and Stats
